@@ -378,3 +378,54 @@ html {
         grid-template-columns: 1fr;
     }
 }
+
+/* ============================================
+   SECTION FONDATEUR (accueil)
+   ============================================ */
+.founder {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.founder-portrait {
+    flex-shrink: 0;
+    width: 280px;
+    text-align: center;
+    margin: 0;
+}
+
+.founder-portrait img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+.founder-portrait figcaption {
+    margin-top: 0.8rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-light);
+}
+
+.founder-text h2 {
+    text-align: left;
+}
+
+.founder-text p {
+    max-width: none;
+    margin: 0 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .founder {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .founder-text h2 {
+        text-align: center;
+    }
+}
