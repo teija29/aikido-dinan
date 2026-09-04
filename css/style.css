@@ -277,6 +277,17 @@ footer {
     margin-bottom: 1rem;
 }
 
+.price-reduced {
+    font-size: 0.95rem;
+    color: var(--text-light);
+    margin-top: 1.5rem;
+}
+
+.price-reduced b {
+    color: var(--accent);
+    font-weight: 600;
+}
+
 .access {
     text-align: center;
     margin-top: 2rem;
