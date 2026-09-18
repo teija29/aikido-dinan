@@ -211,11 +211,22 @@ footer {
     padding: 3.5rem 0;
 }
 
+.footer-affiliation {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+    color: rgba(255,255,255,0.55);
+}
+
 .footer-quote {
     font-style: italic;
     margin-top: 0.8rem;
     font-size: 0.85rem;
     color: rgba(255,255,255,0.4);
+}
+
+.federation-cta {
+    text-align: center;
 }
 
 /* Schedule */
